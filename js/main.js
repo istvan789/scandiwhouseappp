@@ -30,9 +30,9 @@ function changeDropdown() {
 			document.product_form.sku.focus();				
 			return false;
 		}
-		if (document.product_form.name1.value == '') {
+		if (document.product_form.name.value == '') {
 			alert('Please submit required data');
-			document.product_form.name1.focus();
+			document.product_form.name.focus();
 			return false;
 		}
         if (document.product_form.price.value == '') {
