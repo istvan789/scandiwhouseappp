@@ -50,7 +50,7 @@ include_once ("setout/header.inc.php");
                               <div class="p-3 border bg-light d-flex">
                               <input type="checkbox" name="prod_delete_sku[]" value="<?= $row['sku']; ?>">
                              <td><?= $row['sku'] ?></td><br>
-                             <td><?= $row['name1'] ?></td><br>
+                             <td><?= $row['name'] ?></td><br>
                              <td><?= $row['price'] ?></td><br>
                              <td><?= $row['size'] ?></td><br>
                              <td><?= $row['weight'] ?></td><br>
