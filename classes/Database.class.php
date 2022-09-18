@@ -1,5 +1,4 @@
 <?php
-namespace classes;
 
 abstract class Database
 {	
