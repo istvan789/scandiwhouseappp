@@ -1,5 +1,4 @@
 <?php
-namespace classes;
 include_once ("Prod.php");
 include_once ("Validation.class.php");
 include_once ("setout/header.inc.php");
