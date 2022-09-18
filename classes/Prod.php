@@ -1,5 +1,4 @@
 <?php
-namespace classes;
 include_once ("Database.class.php");
 
 class Prod extends Database
