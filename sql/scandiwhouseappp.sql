@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `productlist` (
   `id` int(255) NOT NULL,
   `sku` varchar(30) NOT NULL,
-  `name1` text NOT NULL,
+  `name` text NOT NULL,
   `price` varchar(25) NOT NULL,
   `size` varchar(50) NOT NULL,
   `weight` varchar(50) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `productlist` (
 -- Dumping data for table `productlist`
 --
 
-INSERT INTO `productlist` (`id`, `sku`, `name1`, `price`, `size`, `weight`, `dimension`) VALUES
+INSERT INTO `productlist` (`id`, `sku`, `name`, `price`, `size`, `weight`, `dimension`) VALUES
 (1, '1', 'DVD', '23$', '500MB', '', ''),
 (3, '3', 'Bridgertons', '29$', '778MB', '', ''),
 (4, '4', 'The Beast', '18$', '800MB', '', ''),
