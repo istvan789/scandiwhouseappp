@@ -33,8 +33,8 @@ include_once ("setout/header.inc.php");
 
         <div class="form-row">
         <div class="form-group col-md-3">
-             <label for="name1" class="col-form-label">Name</label>
-            <input type="text" name="name1" id="name1" class="form-control form-control-sm" placeholder="Enter Name of Product" required>
+             <label for="name" class="col-form-label">Name</label>
+            <input type="text" name="name" id="name" class="form-control form-control-sm" placeholder="Enter Name of Product" required>
             
         </div>
         </div>
