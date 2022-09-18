@@ -10,7 +10,7 @@ if(isset($_POST['add_product']))
 {
     
      $sku = $prod->escape_string($_POST['sku']);	
-     $name1 = $prod->escape_string($_POST['name1']);
+     $name = $prod->escape_string($_POST['name']);
      $price = $prod->escape_string($_POST['price']);
      $size = $prod->escape_string($_POST['size']);
      $weight = $prod->escape_string($_POST['weight']);
@@ -19,13 +19,13 @@ if(isset($_POST['add_product']))
      $length = $prod->escape_string($_POST['length']);
      $dimension = $height . " x " . $width . " x " . $length;
             
-        $msg = $validation->check_empty($_POST, array('sku', 'name1', 'price'));
+        $msg = $validation->check_empty($_POST, array('sku', 'name', 'price'));
 
         if($msg != null) {
             echo $msg;		
         }	
         else { 
-            $result = $prod->execute("INSERT INTO productlist (sku,name1,price,size,weight,dimension) VALUES('$sku','$name1','$price','$size','$weight','$dimension')");
+            $result = $prod->execute("INSERT INTO productlist (sku,name,price,size,weight,dimension) VALUES('$sku','$name','$price','$size','$weight','$dimension')");
             
     header("Location: ../index.php");
 }}
