@@ -1,5 +1,4 @@
 <?php
-namespace classes;
 class Validation 
 {
 	public function check_empty($data, $fields)
