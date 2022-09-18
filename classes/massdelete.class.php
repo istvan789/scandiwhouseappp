@@ -1,5 +1,4 @@
 <?php
-namespace classes;
 include_once ("classes/Prod.php");
 
 $prod = new Prod();
